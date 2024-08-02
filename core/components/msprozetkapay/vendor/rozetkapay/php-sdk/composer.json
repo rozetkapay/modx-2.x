@@ -1,0 +1,34 @@
+{
+    "name": "rozetkapay/php-sdk",
+    "description": "RozetkaPay php sdk",
+    "type": "library",
+
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RozetkaPay",
+            "email": "ecomsupport@rozetkapay.com"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": "^5.4|^7.0|^8.0",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5|~8|~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "RozetkaPay\\": "src/"
+        }
+    },
+     "scripts": {
+        "test-php": "vendor/bin/phpunit --colors --verbose --bootstrap tests/bootstrap.php --configuration tests/phpunit.xml"
+    }
+
+}

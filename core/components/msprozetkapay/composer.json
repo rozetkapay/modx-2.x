@@ -1,0 +1,5 @@
+{
+    "require": {
+        "rozetkapay/php-sdk": "dev-main"
+    }
+}

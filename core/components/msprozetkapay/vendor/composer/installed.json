@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "rozetkapay/php-sdk",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rozetkapay/php-sdk.git",
+                "reference": "bd48cbef199ec907001cff5b3fd524e3670dcd08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rozetkapay/php-sdk/zipball/bd48cbef199ec907001cff5b3fd524e3670dcd08",
+                "reference": "bd48cbef199ec907001cff5b3fd524e3670dcd08",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^5.4|^7.0|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5|~8|~9"
+            },
+            "time": "2024-06-07T11:14:03+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RozetkaPay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "RozetkaPay",
+                    "email": "ecomsupport@rozetkapay.com"
+                }
+            ],
+            "description": "RozetkaPay php sdk",
+            "support": {
+                "issues": "https://github.com/rozetkapay/php-sdk/issues",
+                "source": "https://github.com/rozetkapay/php-sdk/tree/main"
+            },
+            "install-path": "../rozetkapay/php-sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
